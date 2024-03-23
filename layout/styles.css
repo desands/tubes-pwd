@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header,
+.teks {
+  background-color: navy;
+  padding: 10px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.images, img {
+  height: 70%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.images h1 {
+  font-size: 30px;
+  position: absolute;
+  top: 20px; 
+  left: 50px;
+  z-index: 1; 
+  margin-top: 150px;
+  color: white;
+}
+.images h2 {
+  font-size: 30px;
+  position: absolute;
+  top: 10px; 
+  left: 50px;
+  z-index: 1; 
+  margin-top: 200px;
+  color: white;
+  
+}
+
+nav ul li {
+  float: left;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: navy;
+  overflow: hidden;
+  
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 90px;
+  
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+.content{
+  text-align: center;
+  padding-top: 30px;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top:50px;
+
+}
+.card1 img{
+  width: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card2{
+  padding-left: 10px;
+}
+.card2 img{
+  width: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+.card-container {
+  display: flex;
+  
+}
+.card3{
+  padding-left: 10px;
+}
+.card3 img{
+  width: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.card4{
+  padding-left: 10px;
+}
+.card4 img{
+  width: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  margin-top: 50px;
+}
+
+.section {
+  flex: 1;
+}
+
+.section h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  padding: 30px;
+  color: white;
+}
+
+.des-link {
+  text-align: right;
+ 
+}
+.des-smavo{
+padding: 30;
+}
+.a{
+text-align: left;
+
+
+
+padding: 20;
+}
+.copy{
+  background-color: #555;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
